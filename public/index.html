@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SLCU - The Steam Library Comparison Utility</title>
+</head>
+<body id="app">
+    <div id="wrapper">
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <nav>
+                            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-compare-tab" data-toggle="tab" href="#nav-compare" role="tab" aria-controls="nav-compare" aria-selected="true">Compare</a>
+                                <a class="nav-item nav-link" id="nav-discover-tab" data-toggle="tab" href="#nav-discover" role="tab" aria-controls="nav-discover" aria-selected="false">Discover</a>
+                                <a class="nav-item nav-link" id="nav-export-tab" data-toggle="tab" href="#nav-export" role="tab" aria-controls="nav-export" aria-selected="false">Export</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="content">
+            <div class="container-fluid">
+                <div class="tab-content" id="nav-tabContent">
+                    <steam-compare></steam-compare>
+                    <steam-discover></steam-discover>
+                    <steam-export></steam-export>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        &nbsp;
+                    </div>
+                    <div class="col">
+                        <span class="text-muted">&copy; 2018 Boris Wintein - MIT LICENSE</span>
+                    </div>
+                    <div class="col">
+                        <a class="github-url" href="https://github.com/boriswintein/SteamCrossreference" target="_blank"><span class="sr-only">Github Repo</span></a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="../dist/build.js"></script>
+</html>
