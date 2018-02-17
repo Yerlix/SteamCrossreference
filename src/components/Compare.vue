@@ -46,14 +46,14 @@
 
 <script lang="ts">
     import Vue from "vue";
-    import FontAwesomeIcon from "@fortawesome/vue-fontawesome"
+    import FontAwesomeIcon from "@fortawesome/fontawesome"
     import CompareListItem from "./compare/Item.vue"
 
     export default Vue.extend({
         props: [],
         data() {
             return {
-                steamaccounts: string[],
+                steamaccounts: [''],
                 inputSteamId: ""
             }
         },

@@ -53,3 +53,9 @@ fabric.properties
 
 # Node
 node_modules/
+
+
+# Ignore generated content
+.idea/
+dist/
+built/
